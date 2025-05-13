@@ -7,6 +7,15 @@ The **DiVaTe Benchmark (Separating Text Rendering)** is a large-scale dataset an
 
 DiVaTe includes over **5,000 structured prompts** designed to probe a model's ability to accurately and cleanly separate these two modalities.
 
+## How to use? 
+
+1. Clone repo [**will be filled in**]
+2. In the repository, add the downloaded txt files into exp/make_prompts directory
+3. If you want to generate image from various models, use main.py in the repo [ ] (example bash prompt is in test_script.sh)
+4. If you want to evaluate generated image, use evaluation.py in the repo [ ]
+
+(All the detailed information about using this datset is informed in repo [ ] 
+
 ## Dataset Structure
 
 The benchmark is organized into 13 sub-categories across 4 major categories:
