@@ -3,7 +3,7 @@ DiVaTe_Benchmark for Neurips2025 benchmark session submission
 
 ## Overview
 
-The **DiVaTe Benchmark (Separating Text Rendering)** is a large-scale dataset and evaluation suite designed to assess the ability of text-to-image (T2I) generative models to correctly disentangle visual generation ("drawing") from text rendering ("writing"). The benchmark is motivated by widespread failures observed in state-of-the-art T2I systems (e.g., GPT-Image-1, Stable Diffusion, Midjourney) when prompted to generate images that contain both visual content and embedded textual content. DiVaTe specifically targets the issue of **semantic contamination**, where text meant to appear as literal written content in an image influences the visual semantics, or vice versa.
+The **DiVaTe Benchmark (Disentangling Visual and Textual Generation)** is a large-scale dataset and evaluation suite designed to assess the ability of text-to-image (T2I) generative models to correctly disentangle visual generation ("drawing") from text rendering ("writing"). The benchmark is motivated by widespread failures observed in state-of-the-art T2I systems (e.g., GPT-Image-1, Stable Diffusion, Midjourney) when prompted to generate images that contain both visual content and embedded textual content. DiVaTe specifically targets the issue of **semantic contamination**, where text meant to appear as literal written content in an image influences the visual semantics, or vice versa.
 
 DiVaTe includes over **5,000 structured prompts** designed to probe a model's ability to accurately and cleanly separate these two modalities.
 
